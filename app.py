@@ -22,4 +22,4 @@ async def process_url(request: Request):
     # return {"result": result}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0")
+    uvicorn.run(app, port=8118, host="0.0.0.0")
